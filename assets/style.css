@@ -25,6 +25,10 @@ main {
   margin-right: 100px;
 }
 
+a {
+  color: white;
+}
+
 .nav-list li:hover{
   background-color: white;
   color: black;
