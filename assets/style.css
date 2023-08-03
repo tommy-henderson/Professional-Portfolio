@@ -1,0 +1,156 @@
+* {
+  font-family: Arial;
+}
+
+main {
+  display: flex;
+  margin-top: 2%;
+  flex-wrap: wrap;
+}
+
+.main-header {
+  display: flex;
+  background: black;
+  color: white;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+
+.nav-list li {
+  display: inline;
+  padding: 16px;
+  font-size: 20px;
+  text-align: center;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.nav-list li:hover{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.nav-list {
+  text-align: center;
+  list-style-type: none;
+  margin: 2px;
+  padding: 2px;
+  background-color: black;
+  color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.about-me {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-right: 150px;
+  margin-bottom: 50px;
+  margin-left: 150px;
+  width: 70%;
+}
+
+.header-image{
+  box-sizing: border-box;
+  max-width: 320px;
+  float: left;
+  margin-right: 15px;
+}
+
+.about-me-text h3{
+  font-size: 40px;
+}
+
+.about-me-text p {
+  font-size: 16px;
+}
+
+.card-image {
+  width: 300px;
+  opacity: .75;
+}
+
+.card {
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  flex-basis: 45%;
+  width: 100%;
+  margin: 2%;
+  align-items: center;
+  height: 300px;
+}
+
+.main-project {
+  text-align: center;
+  border-style: solid;
+  border-color: black;
+  border-width: 3px;
+  flex-basis: 100%;
+  width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  height: 400px;
+}
+
+.main-project-img{
+  width: 400px;
+  opacity: .75;
+}
+.card header {
+  padding: 20px;
+  color: black;
+  font-size: 24px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  padding-left: 40px;
+}
+
+.card:hover {
+  box-shadow: inset 0px 0px 8px black, 0 0 15px gray;
+  cursor: pointer;
+}
+
+.main-project:hover {
+  box-shadow: inset 0px 0px 8px black, 0 0 15px gray;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+  .card {
+    flex-basis: 40%;
+    width: 100%;
+  }
+  .main-project{
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  .main-project{
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+
+.contact-list li {
+  display: flex;
+  list-style-type: none;
+  color: white;
+  font-size: 20px;
+}
