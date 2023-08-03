@@ -165,10 +165,13 @@ footer {
     flex-basis: 100%;
     width: 100%;
   }
+  .nav-list a{
+    display:block;
+  }
 }
 
-/*WORK IN PROGRESS. supposed to make it so when window size shrinks below 1000px, the elements of the page re-adjust to be in line */
-@media screen and (max-width: 550px) {
+/*Makes it so when window size shrinks below 600px, the elements of the page re-adjust to be in line */
+@media screen and (max-width: 600px) {
   .card {
     flex-basis: 100%;
     width: 100%;
@@ -176,6 +179,17 @@ footer {
   .main-project{
     flex-basis: 100%;
     width: 100%;
+    align-items: center;
+    margin: auto;
+  }
+  .nav-list a{
+    display:block;
+    font-size: 20px;
+  }
+  .about-me {
+    display: block;
+    align-items: center;
+    margin: auto;
   }
 }
 
