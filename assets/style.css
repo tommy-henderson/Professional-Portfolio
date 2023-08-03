@@ -40,17 +40,18 @@ main {
 a {
   color: white;
   text-decoration: none;
+  padding: 6px;
 }
 
 /* gives feedback when you hover cursor over navbar */
 .nav-list li:hover {
-  background-color: white;
   color: black;
   cursor: pointer;
 }
 
 .nav-list a:hover {
   color: black;
+  background-color: white;
 }
 
 /* styles nav list. Specifies margins, background color, text alignment, text color */
