@@ -3,6 +3,12 @@
   font-family: Arial;
 }
 
+/*sets background image for site*/
+body {
+  background-image: url("background3.jpeg");
+  background-size: cover;
+}
+
 /* Styles entire main section of page (Projects) */
 main {
   display: flex;
@@ -37,11 +43,12 @@ a {
 }
 
 /* gives feedback when you hover cursor over navbar */
-.nav-list li:hover{
+.nav-list li:hover {
   background-color: white;
   color: black;
   cursor: pointer;
 }
+
 .nav-list a:hover {
   color: black;
 }
@@ -63,15 +70,19 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 80%;
+  margin: auto;
+  color: black;
   margin-top: 50px;
-  margin-right: 150px;
   margin-bottom: 50px;
-  margin-left: 150px;
-  width: 70%;
+  background-color: white;
+  border: solid;
+  border-color: black;
+  border-width: 3px;
 }
 
 /* sizes and aligns image in about me section */
-.header-image{
+.header-image {
   box-sizing: border-box;
   max-width: 320px;
   float: left;
@@ -79,7 +90,7 @@ a {
 }
 
 /* sizes about me header */
-.about-me-text h3{
+.about-me-text h3 {
   font-size: 40px;
 }
 
@@ -105,6 +116,7 @@ a {
   margin: 2%;
   align-items: center;
   height: 300px;
+  background-color: white;
 }
 
 /* styles main project card with border, alignment, size, and text style */
@@ -118,10 +130,11 @@ a {
   margin-left: 15%;
   margin-right: 15%;
   height: 400px;
+  background-color: white;
 }
 
 /*specifies main project's image size and opacity */
-.main-project-img{
+.main-project-img {
   width: 400px;
   opacity: .75;
 }
@@ -161,12 +174,14 @@ footer {
     flex-basis: 40%;
     width: 100%;
   }
-  .main-project{
+
+  .main-project {
     flex-basis: 100%;
     width: 100%;
   }
-  .nav-list a{
-    display:block;
+
+  .nav-list a {
+    display: block;
   }
 }
 
@@ -176,16 +191,19 @@ footer {
     flex-basis: 100%;
     width: 100%;
   }
-  .main-project{
+
+  .main-project {
     flex-basis: 100%;
     width: 100%;
     align-items: center;
     margin: auto;
   }
-  .nav-list a{
-    display:block;
+
+  .nav-list a {
+    display: block;
     font-size: 20px;
   }
+
   .about-me {
     display: block;
     align-items: center;
