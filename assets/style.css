@@ -57,8 +57,7 @@ a {
 .nav-list {
   text-align: center;
   list-style-type: none;
-  margin: 2px;
-  padding: 2px;
+  padding: 6px;
   background-color: black;
   color: white;
   margin-left: 100px;
@@ -79,14 +78,16 @@ a {
   border: solid;
   border-color: black;
   border-width: 3px;
+  padding: 10px 20px 10px 20px;
 }
 
 /* sizes and aligns image in about me section */
 .header-image {
   box-sizing: border-box;
-  max-width: 320px;
+  max-width: 250px;
   float: left;
   margin-right: 15px;
+  padding: 10px;
 }
 
 /* sizes about me header */
@@ -96,7 +97,7 @@ a {
 
 /* sizes about me main text */
 .about-me-text p {
-  font-size: 16px;
+  font-size: 20px;
 }
 
 /* sizes and adjusts opacity for project card images */
@@ -183,6 +184,15 @@ footer {
   .nav-list a {
     display: block;
   }
+  .about-me {
+    display: block;
+    align-items: center;
+    margin: auto;
+  }
+  .header-image {
+    max-width: 200px;
+    display: block;
+  }
 }
 
 /*Makes it so when window size shrinks below 600px, the elements of the page re-adjust to be in line */
@@ -208,6 +218,10 @@ footer {
     display: block;
     align-items: center;
     margin: auto;
+  }
+  .header-image {
+    max-width: 200px;
+    display: block;
   }
 }
 
