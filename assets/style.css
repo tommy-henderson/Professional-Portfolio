@@ -1,13 +1,16 @@
+/* Declares font family for entire page */
 * {
   font-family: Arial;
 }
 
+/* Styles entire main section of page (Projects) */
 main {
   display: flex;
   margin-top: 2%;
   flex-wrap: wrap;
 }
 
+/* styles main header - centers, changes background and font color. */
 .main-header {
   display: flex;
   background: black;
@@ -16,6 +19,8 @@ main {
   margin-bottom: 16px;
 }
 
+/* styles list items for the nav bar. Specifies padding, font size, margins, and display type. */
+/*
 .nav-list li {
   display: inline;
   padding: 16px;
@@ -23,12 +28,15 @@ main {
   text-align: center;
   margin-left: 100px;
   margin-right: 100px;
-}
+}*/
 
+/* styles a tags on navbar. Specifies text color and removes underline */
 a {
   color: white;
+  text-decoration: none;
 }
 
+/* gives feedback when you hover cursor over navbar */
 .nav-list li:hover{
   background-color: white;
   color: black;
